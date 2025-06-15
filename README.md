@@ -11,10 +11,15 @@ Logiciel requis :
 - une licence github copilot (existe en version gratuite pour tout possesseur d'un compte github)
 - GitHub copilot installé dans vs code
 
+```
+pip install -r requirements.txt
+```
+
 ## Configurer le serveur MCP
 
 Ajouter le serveur MCP au fichier de configuration, `%APPDATA%\Code\User\settings.json` avec les lignes suivantes :
 
+```json
    "mcp": {
         "servers": {
             "my-mcp-server-0d41d230": {
@@ -26,6 +31,7 @@ Ajouter le serveur MCP au fichier de configuration, `%APPDATA%\Code\User\setting
             }
         }
     }
+```
 
 Ajuster le chemin au fichier .py à votre environnement
 
